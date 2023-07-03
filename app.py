@@ -12,7 +12,7 @@ def authenticate(token):
 
 @app.route('/google-verification')
 def google():
-    return render_template('googlef0dca37378edf190.html')
+    return 'google-site-verification: googlef0dca37378edf190.html'
 
 @app.route('/privacy-policy/')
 def policy():
