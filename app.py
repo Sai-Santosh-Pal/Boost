@@ -12,7 +12,8 @@ def authenticate(token):
 
 @app.route('/')
 def google():
-    return 'google-site-verification: googlef0dca37378edf190.html'
+    return '''<head><meta name="google-site-verification" content="jwjHQ5CVGwwCNeZTGmcRlrQWnlCasUvsrz6LKVN9khw" />
+            </head><body>BOOST.IO</body>'''
 
 @app.route('/privacy-policy/')
 def policy():
