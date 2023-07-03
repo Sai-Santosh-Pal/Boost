@@ -10,6 +10,10 @@ def authenticate(token):
     else:
         return "Invalid token"
 
+@app.route('/google-verification')
+def google():
+    return render_template('googlef0dca37378edf190.html')
+
 @app.route('/privacy-policy/')
 def policy():
     return """
