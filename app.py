@@ -10,7 +10,7 @@ def authenticate(token):
     else:
         return "Invalid token"
 
-@app.route('/google-verification')
+@app.route('/')
 def google():
     return 'google-site-verification: googlef0dca37378edf190.html'
 
