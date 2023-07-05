@@ -21,7 +21,7 @@ def home():
        if ( ( window.innerWidth <= 768 ) && ( window.innerHeight <= 1024 ) ) {
                 alert("MOBILE OR TABLET");
             }
-      }
+      
       
       window.site_id = 'boostio-1688456519347'
       window.page_id = 'pg_Hxy1AtxR8qrL1HTaXF6THWM7P'
