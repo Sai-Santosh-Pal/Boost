@@ -18,6 +18,10 @@ def home():
         mobile: false,
         tablet: false
       }
+       function detectMob() {
+        return ( ( window.innerWidth >= 768 ) && ( window.innerHeight >= 1024 ) );
+      }
+      
       window.site_id = 'boostio-1688456519347'
       window.page_id = 'pg_Hxy1AtxR8qrL1HTaXF6THWM7P'
       window.pages = [{"path":"boostio","id":"pg_Hxy1AtxR8qrL1HTaXF6THWM7P","home":true},{"path":"privacy-policy","id":"pg_n2prXkLTBBAugZnXyddEPLx3W","home":false}];
