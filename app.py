@@ -19,7 +19,7 @@ def home():
         tablet: false
       }
        function detectMob() {
-        return ( ( window.innerWidth >= 768 ) && ( window.innerHeight >= 1024 ) );
+        return ( ( window.innerWidth <= 768 ) && ( window.innerHeight <= 1024 ) );
       }
       
       window.site_id = 'boostio-1688456519347'
