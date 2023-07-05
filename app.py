@@ -18,8 +18,7 @@ def home():
         mobile: false,
         tablet: false
       }
-       function detectMob() {
-        if ( ( window.innerWidth <= 768 ) && ( window.innerHeight <= 1024 ) ) {
+       if ( ( window.innerWidth <= 768 ) && ( window.innerHeight <= 1024 ) ) {
                 alert("MOBILE OR TABLET");
             }
       }
